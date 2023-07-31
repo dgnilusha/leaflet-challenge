@@ -1,8 +1,8 @@
 # leaflet-challenge
 
-# Earthquake Mapping Project
+# Earthquake Mapping challenge
 
-This project uses Leaflet, D3.js, and GeoJSON data from the USGS (United States Geological Survey) to create a map that plots recent earthquakes based on their latitude, longitude, magnitude, and depth. The data markers on the map reflect the magnitude of the earthquake by their size and the depth of the earthquake by color.
+This challenge uses Leaflet, D3.js, and GeoJSON data from the USGS (United States Geological Survey) to create a map that plots recent earthquakes based on their latitude, longitude, magnitude, and depth. The data markers on the map reflect the magnitude of the earthquake by their size and the depth of the earthquake by color.
 
 ## Features
 
