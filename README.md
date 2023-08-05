@@ -1,6 +1,6 @@
 # leaflet-challenge
 
-# Earthquake Mapping challenge
+# Earthquake Mapping 
 
 This project displays earthquake data on a map using Leaflet and D3.js. The map shows the locations of earthquakes that occurred within the past week, and each earthquake is represented by a circle with a size based on its magnitude and color based on its depth.
 
