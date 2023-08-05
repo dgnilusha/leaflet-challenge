@@ -1,28 +1,24 @@
 # leaflet-challenge
 
-# Earthquake Mapping Project
+# Earthquake Mapping challenge
 
-This project uses Leaflet, D3.js, and GeoJSON data from the USGS (United States Geological Survey) to create a map that plots recent earthquakes based on their latitude, longitude, magnitude, and depth. The data markers on the map reflect the magnitude of the earthquake by their size and the depth of the earthquake by color.
+This project displays earthquake data on a map using Leaflet and D3.js. The map shows the locations of earthquakes that occurred within the past week, and each earthquake is represented by a circle with a size based on its magnitude and color based on its depth.
 
-## Features
+How to Use:
 
-- The map is centered at latitude 37.09 and longitude -95.71 with a zoom level of 5.
+Open index.html in your web browser to view the map.
 
-- Earthquake markers are plotted on the map using circle markers. The size of each circle corresponds to the magnitude of the earthquake.
+The map shows the world view with circles indicating earthquake locations.
 
-- The color of each circle reflects the depth of the earthquake based on the legend on the bottom-right corner of the map.
+The circle's size represents the earthquake's magnitude, and the color represents its depth. The legend on the bottom-right of the map explains the color-coding.
 
-## Customization
+Click on a circle to see more information about the earthquake, including its magnitude and location.
 
-If you want to modify the appearance or behavior of the map, you can do the following:
+Dependencies:
 
-- Change the tile layer to use a different map style by updating the `basemap` variable in `logic.js`.
+The project uses Leaflet (v1.7.1) for map visualization. The Leaflet CSS and JavaScript files are included in the index.html file.
 
-- Adjust the marker size or color scheme by modifying the `markerSize()` and `getColor()` functions in `logic.js`.
-
-- Customize the legend by editing the `legend.onAdd` function in `logic.js`.
-
-- Feel free to explore the Leaflet documentation (https://leafletjs.com/) and D3.js documentation (https://d3js.org/) for more options and features.
+D3.js is used to fetch GeoJSON data and customize the earthquake markers. The D3.js library is also included in the index.html file.
 
 ## Resources
 
